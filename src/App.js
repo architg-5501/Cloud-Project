@@ -32,7 +32,7 @@ function App() {
       }
     }).catch(error=>{
       setAuth(false);
-      setUploadResultMessage(`Welcome to work. Hope you have a productive day.`)
+      setUploadResultMessage(`there is an error in authentication process,try again later.`)
       console.error(error);
     })
 
